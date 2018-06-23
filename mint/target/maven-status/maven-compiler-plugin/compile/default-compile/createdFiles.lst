@@ -1,2 +1,2 @@
-mint\MintApplication.class
-mint\controller\MintController.class
+ro\mint\controller\MintController.class
+ro\mint\MintApplication.class

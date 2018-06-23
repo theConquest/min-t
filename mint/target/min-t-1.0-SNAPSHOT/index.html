@@ -11,4 +11,18 @@
 <body>
   <app-root></app-root>
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+<script>
+    function sendReq() {
+        var opts = {
+            method: 'POST',
+            body: 'json',
+            headers: {}
+        };
+        fetch('/mint/testReq', opts).then(function (response) {
+            return response.text().then(function(text) {
+                document.getElementById('reqStatusId').innerHTML = text;
+            });
+        })
+    }
+</script>
 </html>

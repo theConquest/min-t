@@ -1,3 +1,8 @@
 ro\mint\MintApplication.class
+ro\mint\repo\MintRepository.class
+ro\mint\repo\MintRepositoryImpl.class
+ro\mint\service\MintServiceImpl.class
+ro\mint\model\User.class
+ro\mint\service\MintService.class
 ro\mint\controller\MintController.class
 ro\mint\config\MintConfig.class

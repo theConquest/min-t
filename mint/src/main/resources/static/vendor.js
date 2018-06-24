@@ -35486,7 +35486,7 @@ var KeyValueChangeRecord_ = /** @class */ (function () {
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * A repository of different iterable diffing strategies used by NgFor, NgClass, and others.
+ * A repo of different iterable diffing strategies used by NgFor, NgClass, and others.
  *
  */
 var IterableDiffers = /** @class */ (function () {
@@ -35563,7 +35563,7 @@ function getTypeNameForDebugging(type) {
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * A repository of different Map diffing strategies used by NgClass, NgStyle, and others.
+ * A repo of different Map diffing strategies used by NgClass, NgStyle, and others.
  *
  */
 var KeyValueDiffers = /** @class */ (function () {

@@ -11,7 +11,7 @@ export class PageOneComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http.get('http://localhost:8080/testit').subscribe(response => {
+    this.http.get('/mint/testReq').subscribe(response => {
       console.log(response);
       this.response = JSON.stringify(response);
     });
